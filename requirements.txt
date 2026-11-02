@@ -1,0 +1,4 @@
+# The pipeline (fetch, rebuild, predict, format) uses the Python 3.12+ standard library only.
+# Optional:
+certifi      # HTTPS certificates for EDGAR downloads on Python builds without system certificates
+openpyxl     # scripts/build_0015_items.py (rebuilding the DQC_US_0015 element list from the workbook)

@@ -1,0 +1,16 @@
+# data lives outside the repository (see data/README.md)
+data/*
+!data/README.md
+!data/edgar_manifest.json
+dqc_sources/
+
+# the development-upload ledger and prediction files are not distributed
+probe/ledger.json
+probe/*.jsonl
+probe/*.json
+!probe/README.md
+
+# build and tool artefacts
+__pycache__/
+*.pyc
+.DS_Store
